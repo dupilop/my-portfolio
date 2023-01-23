@@ -1,0 +1,33 @@
+$background: #FAFAFA;
+$text: #A73131;
+.main{
+    background: $background;
+    color: $text;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    height: 10rem;
+    .firstNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 2rem;
+        align-items: center;
+    }
+    .imagePic{
+        clip-path: circle(60px at center);
+        background: white;
+        height: auto;
+        width: 8rem;
+        
+    }
+    .secondNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 2rem;
+        align-items: center;
+    }
+}
