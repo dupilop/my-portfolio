@@ -1,0 +1,11 @@
+$background: #ffffff;
+$text: #A73131;
+.featuredWorkContainer{
+    height: 20rem;
+    background: $background;
+    padding-left: 15rem;
+    padding-top: 1rem;
+    .heading{
+        color: $text;
+    }
+}

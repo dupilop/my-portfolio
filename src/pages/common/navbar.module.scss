@@ -6,27 +6,30 @@ $text: #A73131;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 6rem;
     height: 10rem;
-    .firstNav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap: 2rem;
-        align-items: center;
-    }
-    .imagePic{
-        clip-path: circle(60px at center);
-        background: white;
-        height: auto;
-        width: 8rem;
-        
-    }
+    font-size: x-large;
+    padding: 1rem;
+    // .firstNav{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: flex-end;
+    //     gap: 2rem;
+    //     align-items: center;
+    // }
+    // .iconNav{
+    //     display: flex;
+    //     gap: 2rem;
+    //     width: 8rem;
+    //     align-items: center;
+    //     font-size: 1em;
+    // }
+    // 
     .secondNav{
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 2rem;
         align-items: center;
     }

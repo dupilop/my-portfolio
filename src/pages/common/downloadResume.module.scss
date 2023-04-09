@@ -1,0 +1,14 @@
+$background: #A73131;
+$text: #FAFAFA;
+$leftAlign: 15rem;
+.download{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    padding-left: $leftAlign;
+    .downloadButton{
+        background: $background;   
+        height: 3rem;
+        width: 11rem; 
+    }
+}

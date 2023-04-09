@@ -1,0 +1,16 @@
+$background: #fcf4f4;
+$text: #A73131;
+.boxOuter{
+    width: 35rem;
+    height: 13rem;
+    background: $background;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 2rem 3rem;
+    .header{
+        color: $text;
+
+    }
+}

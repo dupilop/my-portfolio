@@ -1,0 +1,24 @@
+$background: #EDF7FA;
+$text: #A73131;
+$leftAlign: 15rem;
+.recentPost{
+    background: $background;
+    height: 20rem;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        color: $text;
+        padding-left: $leftAlign;
+        padding-right: $leftAlign;
+        padding-top: 1rem;
+    }
+    .main{
+        display: flex;
+        justify-content: flex-start;
+        color: $text;
+        padding-left: $leftAlign;
+        padding-right: $leftAlign;
+        padding-top: 1rem;
+        gap: 2rem;
+    }
+}

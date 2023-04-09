@@ -1,0 +1,19 @@
+$background: #ffffff;
+$text: #A73131;
+
+.container{
+    color: $text;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-top: 2rem;
+    .featuredImage{
+        height: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-right: 15rem;
+    }
+}
