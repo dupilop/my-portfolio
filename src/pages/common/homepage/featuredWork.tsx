@@ -18,7 +18,7 @@ const FeaturedWork = () => {
                             category={work.category}
                             description={work.description}
                             image={work.image}
-
+                            key={key}
                         />
                     ))
                 }
