@@ -1,0 +1,25 @@
+.main {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .section{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    // height: 100vh;
+    background: white;
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

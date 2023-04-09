@@ -2,15 +2,47 @@ $background: #fcf4f4;
 $text: #A73131;
 .boxOuter{
     width: 35rem;
-    height: 13rem;
+    height: 295px;
     background: $background;
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
     flex-direction: column;
     padding: 2rem 3rem;
+    
     .header{
         color: $text;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 38px;
 
+        /* Dark Color */
+
+        color: #21243D;
+
+    }
+    .addInfo{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+
+        /* Dark Color */
+
+        color: #21243D;
+    }
+    .description{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        /* Dark Color */
+
+        color: #21243D;
     }
 }

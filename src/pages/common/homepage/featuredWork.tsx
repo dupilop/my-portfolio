@@ -1,14 +1,27 @@
 import FeaturedWorkSlider from './featuredWorkSlider';
 import styles from './styles/featuredWork.module.scss';
+import recentPost from './store/recentpost.json';
+
 
 const FeaturedWork = () => {
     return (
         <>
             <div className={styles.featuredWorkContainer}>
                 <div className={styles.heading}>
-                    <h4>Featured Works</h4>
+                    <h3>Featured Works</h3>
                 </div>
-                <FeaturedWorkSlider />
+                {
+                    recentPost.featuredWork.map((work, key) => (
+                        <FeaturedWorkSlider 
+                            title={work.title}
+                            createYear={work.createYear}
+                            category={work.category}
+                            description={work.description}
+                            image={work.image}
+
+                        />
+                    ))
+                }
             </div>
         </>
     )

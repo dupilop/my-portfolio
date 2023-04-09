@@ -1,8 +1,15 @@
 import Image from 'next/image';
 import styles from './styles/featuredWorkSlider.module.scss';
 
-const FeaturedWorkSlider = () => {
-    const profile = '/my_pic.jpg';
+interface WorkSlider{
+    title: string,
+    createYear: string,
+    category: string,
+    description: string,
+    image: string
+}
+
+const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, description, image}) => {
 
     return (
         <>
@@ -11,22 +18,22 @@ const FeaturedWorkSlider = () => {
                 <Image
                     alt="my picture"
                     className={styles.imagePic}
-                    src={profile}
+                    src={image}
                     width={100}
-                    height={100}
+                    height={150}
                     // priority
                     />
                 </div>
                 <div className={styles.content}>
                     <div>
-                        <h3>Designing Dashboards</h3>
+                        <h3>{title}</h3>
                     </div>
                     <div>
-                        <span>2020 Dashboard</span>
+                        <span>{createYear} {category}</span>
                     </div>
                     <div>
                         <p>
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            {description}
                         </p>
                     </div>
                 </div>

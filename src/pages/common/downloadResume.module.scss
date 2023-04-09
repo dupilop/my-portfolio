@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
 $background: #A73131;
 $text: #FAFAFA;
 $leftAlign: 15rem;
 .download{
     display: flex;
     align-items: center;
-    height: 6rem;
-    padding-left: $leftAlign;
+    width: 208px;
+    height: 47px;
+    margin-bottom: 2rem;
     .downloadButton{
-        background: $background;   
-        height: 3rem;
-        width: 11rem; 
+        width: 208px;
+        height: 47px;
+        background: #FF6464;
+        border-radius: 2px;
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 500;
+        border: none;
     }
 }

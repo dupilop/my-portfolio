@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 .container{
     background: white;
     display: flex;
     justify-content: center;
     .leftContainer{
         width: 50%;
-        height: auto;
-        color: black;
+        // height: auto;
         display: flex;
         justify-content: center;
-        // align-items: center;
         flex-direction: column;
         gap: 4rem;
         font-size: 2.5em;
-        padding-left: 15rem;
-        h1{
-            // filter: drop-shadow(16px 16px 10px black);
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        color: #21243D;
+        h3{
+            
+            font-weight: bold; 
+        }
+        p{
+            font-weight: 400;
         }
     }
     .rightContainer{
@@ -23,14 +31,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
         .imagePic{
                 clip-path: circle(12rem at center);
                 background: white;
-                // height: auto;
-                // width: 8rem;
-                // background: white;
-                height: 32rem;
-                width: 20rem;
+                // position: absolute;
                 
             }
     }

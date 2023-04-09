@@ -12,5 +12,21 @@
             "category": "Figma, Icon Design",
             "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         }
-]
+],
+    "featuredWork": [
+        {
+            "title": "Designing Dashboards",
+            "createYear": "2023",
+            "category": "Dashboard",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "image": "/frame1.png"
+        },
+        {
+            "title": "Vibrant Portraits of 2020",
+            "createYear": "2022",
+            "category": "Illustration",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "image": "/frame2.png"
+        }
+    ]
 }
