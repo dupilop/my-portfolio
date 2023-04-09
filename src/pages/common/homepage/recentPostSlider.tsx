@@ -12,13 +12,14 @@ const RecentPostSlider = () => {
                 </div>
                 <div className={styles.main}>
                     {
-                        recentPost.recentPost.map((post) => (
+                        recentPost.recentPost.map((post, key) => (
 
                             <SliderBox 
                             title={post.title}
                             dateCreated={post.dateCreated}
                             category={post.category}
                             description={post.description}
+                            key={key}
                             />
                             ))
                     }
