@@ -1,8 +1,11 @@
+@import '../pages/common/commonvalues';
+
 .main {
   background: white;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
   .section{
     background: white;
     display: flex;
@@ -11,6 +14,7 @@
   }
   
 }
+
 
 @keyframes rotate {
   from {

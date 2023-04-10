@@ -1,3 +1,4 @@
+@import '../../allmixins';
 $background: #ffffff;
 $text: #21243D;
 
@@ -8,7 +9,7 @@ $text: #21243D;
     gap: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    font-size: larger;
+    // font-size: larger;
     height: 14rem;
     padding: 1rem;
     align-items: center;
@@ -26,6 +27,17 @@ $text: #21243D;
         flex-direction: column;
         gap: 1rem;
         width: 80%;
+        div{
+            h3{
+                @include averageHeader;
+            }
+            span{
+                @include averageInfo;
+            }
+            p{
+                @include averageDesc;
+            }
+        }
         
     }
 }

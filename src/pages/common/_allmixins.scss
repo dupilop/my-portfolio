@@ -1,0 +1,63 @@
+@mixin smallTitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+}
+@mixin smallInfo{
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 30px;
+}
+@mixin smalldesc{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 30px;
+}
+
+@mixin averageHeader{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+@mixin averageInfo{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+@mixin averageDesc{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+@mixin initialPadding{
+    padding: 0 15rem;
+}
+
+@mixin smallerHeader{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+@mixin smallScreenDownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30px;
+    margin-left: 0;
+}

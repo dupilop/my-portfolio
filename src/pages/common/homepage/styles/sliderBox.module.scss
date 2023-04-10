@@ -1,3 +1,5 @@
+@import '../../allmixins';
+
 $background: #fcf4f4;
 $text: #A73131;
 .boxOuter{
@@ -10,29 +12,13 @@ $text: #A73131;
     padding: 2rem 3rem;
     cursor: pointer;    
     .header{
-        color: $text;
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 38px;
-        color: #21243D;
+        @include averageHeader;
     }
     .addInfo{
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-        color: #21243D;
+        @include averageInfo;
     }
     .description{
-        font-family: 'Heebo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #21243D;
+        @include averageDesc;
     }
 }
 .boxOuter:hover{

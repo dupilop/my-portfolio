@@ -29,7 +29,7 @@ const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, 
                         <h3>{title}</h3>
                     </div>
                     <div>
-                        <span>{createYear} {category}</span>
+                        <span>{createYear} </span> <h6>{category}</h6>
                     </div>
                     <div>
                         <p>
