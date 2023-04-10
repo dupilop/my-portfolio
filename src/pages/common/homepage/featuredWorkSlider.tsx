@@ -22,7 +22,6 @@ const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, 
                     objectFit="contain"
                     layout="fill"
                     priority
-                    // priority
                     />
                 </div>
                 <div className={styles.content}>

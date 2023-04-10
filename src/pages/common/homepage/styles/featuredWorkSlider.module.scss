@@ -12,6 +12,7 @@ $text: #21243D;
     height: 14rem;
     padding: 1rem;
     align-items: center;
+    cursor: pointer;
     .featuredImage{
         height: 100%;
         display: flex;
@@ -25,9 +26,12 @@ $text: #21243D;
         flex-direction: column;
         gap: 1rem;
         width: 80%;
-        // padding-right: 15rem;
         
     }
+}
+
+.featuredWorkSliderContainer:hover{
+    box-shadow: 0px 0px 20px rgba(52, 57, 59, 0.25);
 }
 
 

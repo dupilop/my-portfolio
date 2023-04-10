@@ -9,8 +9,6 @@ $leftAlign: 15rem;
     width: 208px;
     height: 47px;
     margin-bottom: 2rem;
-    // margin-left: 15rem;
-
     .downloadButton{
         width: 208px;
         height: 47px;
@@ -22,7 +20,11 @@ $leftAlign: 15rem;
         line-height: 29px;
         font-weight: 500;
         border: none;
+        cursor:pointer;
+        opacity: 0.6;
+        transition: 0.3s;
     }
+    .downloadButton:hover {opacity: 1}
 }
 
 @import 'responsive';

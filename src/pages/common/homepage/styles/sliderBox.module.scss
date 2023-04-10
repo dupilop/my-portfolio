@@ -6,10 +6,9 @@ $text: #A73131;
     background: $background;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     flex-direction: column;
     padding: 2rem 3rem;
-    
+    cursor: pointer;    
     .header{
         color: $text;
         font-family: 'Heebo';
@@ -17,11 +16,7 @@ $text: #A73131;
         font-weight: 700;
         font-size: 26px;
         line-height: 38px;
-
-        /* Dark Color */
-
         color: #21243D;
-
     }
     .addInfo{
         font-family: 'Heebo';
@@ -29,9 +24,6 @@ $text: #A73131;
         font-weight: 400;
         font-size: 18px;
         line-height: 26px;
-
-        /* Dark Color */
-
         color: #21243D;
     }
     .description{
@@ -40,11 +32,11 @@ $text: #A73131;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-
-        /* Dark Color */
-
         color: #21243D;
     }
+}
+.boxOuter:hover{
+    box-shadow: 0px 0px 20px rgba(52, 57, 59, 0.25);
 }
 
 @import '../../responsive';

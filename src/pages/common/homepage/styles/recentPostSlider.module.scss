@@ -7,6 +7,7 @@ $rightAlign: 15rem;
     height: 396px;
     font-size: larger;
     position: relative;
+    
     .recentPostInside{
         position: absolute;
         left: 0;
@@ -14,20 +15,40 @@ $rightAlign: 15rem;
         width: 100%;
         background: $background;
         height: 100%;
-        // padding: 0 15rem;
-
         .header{
             display: flex;
             justify-content: space-between;
             color: $text;
             padding-left: $leftAlign;
-            // padding-right: $rightAlign;
             padding-top: 1rem;
             font-family: 'Heebo';
             font-style: normal;
             font-weight: 400;
             font-size: 22px;
             line-height: 60px;
+            h4{
+                display: inline-block;
+                position: relative;
+                cursor: pointer;
+            }
+            h4::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: #0087ca;
+                transform-origin: bottom right;
+                transition: transform 0.5s ease-out;
+              }
+              
+              h4:hover::after {
+                background: red;
+                transform: scaleX(1);
+                transform-origin: bottom left;
+              }
         }
         .main{
             display: flex;
@@ -37,9 +58,9 @@ $rightAlign: 15rem;
             padding-right: $leftAlign;
             padding-top: 1rem;
             gap: 2rem;
-            box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
             border-radius: 4px;
         }
+        
     }
 }
 

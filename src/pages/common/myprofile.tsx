@@ -12,7 +12,7 @@ const MyProfile = () => {
         <div className={styles.container}>
             <div className={styles.leftContainer}>
                 <h3>{firstHeading} <br />
-                Senior Software Developer</h3>
+                Software Developer</h3>
                 <p>
                     {mybio}
                 </p>

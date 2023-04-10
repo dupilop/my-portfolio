@@ -1,10 +1,13 @@
 import styles from './downloadResume.module.scss';
 
 const DownloadResume = () => {
+    const file = '/resume_abhinav.pdf';
     return(
         <>
             <div className={styles.download}>
+            <a href={file} rel="noopener noreferrer" target="_blank">
                 <button className={styles.downloadButton}>Download Resume</button>
+                </a>
             </div>
         </>
     )
