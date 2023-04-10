@@ -1,5 +1,6 @@
+
 $background: #EDF7FA;
-$text: #A73131;
+$text: #21243D;
 $leftAlign: 1rem;
 $rightAlign: 15rem;
 .recentPost{
@@ -13,13 +14,20 @@ $rightAlign: 15rem;
         width: 100%;
         background: $background;
         height: 100%;
+        // padding: 0 15rem;
+
         .header{
             display: flex;
             justify-content: space-between;
             color: $text;
             padding-left: $leftAlign;
-            padding-right: $rightAlign;
+            // padding-right: $rightAlign;
             padding-top: 1rem;
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 60px;
         }
         .main{
             display: flex;
@@ -34,3 +42,6 @@ $rightAlign: 15rem;
         }
     }
 }
+
+
+@import '../../responsive';

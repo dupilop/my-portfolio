@@ -1,15 +1,25 @@
+@import '../../responsive';
+
 $background: #ffffff;
-$text: #A73131;
+$text: #21243D;
 .featuredWorkContainer{
     background: $background;
     // padding-left: 15rem;
+    // padding: 0 15rem;
     padding-top: 1rem;
     padding-bottom: 5rem;
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
     font-size: larger;
     .heading{
         color: $text;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 60px;
+
     }
 }

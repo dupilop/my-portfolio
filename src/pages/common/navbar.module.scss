@@ -1,5 +1,5 @@
 $background: #FAFAFA;
-$text: #A73131;
+$text: #000000;
 .main{
     background: $background;
     color: $text;
@@ -11,6 +11,12 @@ $text: #A73131;
     height: 6rem;
     font-size: x-large;
     padding: 1rem;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
     .secondNav{
         display: flex;
         flex-direction: row;

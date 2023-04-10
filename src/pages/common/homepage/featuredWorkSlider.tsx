@@ -13,14 +13,15 @@ const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, 
 
     return (
         <>
-            <div className={styles.container}>
+            <div className={styles.featuredWorkSliderContainer}>
                 <div className={styles.featuredImage}>
                 <Image
                     alt="my picture"
                     className={styles.imagePic}
                     src={image}
-                    width={100}
-                    height={150}
+                    objectFit="contain"
+                    layout="fill"
+                    priority
                     // priority
                     />
                 </div>

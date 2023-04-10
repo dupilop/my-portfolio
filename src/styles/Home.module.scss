@@ -4,8 +4,6 @@
   flex-direction: column;
   gap: 2rem;
   .section{
-    padding-left: 15rem;
-    padding-right: 15rem;
     // height: 100vh;
     background: white;
     // position: relative;
@@ -13,6 +11,7 @@
     flex-direction: column;
     gap: 3rem;
   }
+  
 }
 
 @keyframes rotate {
