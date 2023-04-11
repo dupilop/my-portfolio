@@ -1,0 +1,33 @@
+.main{
+    background: white;
+    height: 100vh;
+    // width: 100vw;
+    color: black;
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 15rem;
+        ;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main{
+        height: 100%;
+        .section{
+            padding: 0 2rem;
+            ;
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .main{
+        height: 100%;
+        .section{
+            padding: 0 2rem;
+            ;
+        }
+    }
+}

@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>My portfolio</title>
+        <title>Abhinav Kaphle</title>
         <meta name="description" content="Abhinav Kaphle Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Navbar />
+        <Navbar active=""/>
         <section className={styles.section}>
           <MyProfile />
           <DownloadResume />

@@ -28,5 +28,25 @@
             "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
             "image": "/frame2.png"
         }
+    ],
+    "blogs": [
+        {
+            "title": "UI Interactions of the week",
+            "dateCreated": "12 Feb 2019",
+            "category": "Express, Handlebars",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "title": "Making a design system from scratch",
+            "dateCreated": "10 Apr 2023",
+            "category": "Design,Pattern",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "title": "Creating pixel perfect icons in Figma",
+            "dateCreated": "10 Apr 2023",
+            "category": "Figma, Icon Design",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        }
     ]
 }
