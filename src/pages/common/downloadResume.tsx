@@ -1,7 +1,7 @@
 import styles from './downloadResume.module.scss';
 
 const DownloadResume = () => {
-    const file = '/resume_abhinav.pdf';
+    const file = '/my_personal_resume.pdf';
     return(
         <>
             <div className={styles.download}>

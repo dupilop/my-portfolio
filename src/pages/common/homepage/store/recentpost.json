@@ -15,18 +15,20 @@
 ],
     "featuredWork": [
         {
-            "title": "Designing Dashboards",
+            "title": "Website for Gopi Krishna Complex",
             "createYear": "2023",
-            "category": "Dashboard",
-            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "image": "/frame1.png"
+            "category": "Website",
+            "description": "This is only a sample  project that i have built for the company.",
+            "outerLink": "https://gkccfrontend.vercel.app/",
+            "image": "/frame4.png"
         },
         {
-            "title": "Vibrant Portraits of 2020",
+            "title": "Landing business page for takeo",
             "createYear": "2022",
-            "category": "Illustration",
-            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "image": "/frame2.png"
+            "category": "Website",
+            "outerLink": "https://takeolandingv2.vercel.app/",
+            "description": "This is a landing page for the company. This was built in purpose to increase the business.",
+            "image": "/frame3.png"
         }
     ],
     "blogs": [

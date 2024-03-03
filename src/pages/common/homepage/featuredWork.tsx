@@ -18,6 +18,7 @@ const FeaturedWork = () => {
                             category={work.category}
                             description={work.description}
                             image={work.image}
+                            outerLink={work.outerLink}
                             key={key}
                         />
                     ))

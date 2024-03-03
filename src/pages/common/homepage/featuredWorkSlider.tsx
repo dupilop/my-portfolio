@@ -1,15 +1,17 @@
 import Image from 'next/image';
 import styles from './styles/featuredWorkSlider.module.scss';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface WorkSlider{
     title: string,
     createYear: string,
     category: string,
     description: string,
-    image: string
+    image: string,
+    outerLink: string
 }
 
-const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, description, image}) => {
+const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, description, image, outerLink}) => {
 
     return (
         <>
@@ -37,7 +39,9 @@ const FeaturedWorkSlider: React.FC<WorkSlider> = ({title, createYear, category, 
                         </p>
                     </div>
                 </div>
-
+                <div className={styles.externalLink}>
+                    <a href={outerLink} target="_blank"  rel="noreferrer"><FaExternalLinkAlt /></a>
+                </div>
             </div>
         </>
     )
